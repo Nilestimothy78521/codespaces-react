@@ -20,3 +20,13 @@
 }
 intensity
 "coding notes" - website
+_backlayer. colorMode (HSB);
+  _midlayer.colorMode (HSB);
+  _frontLayer.colorMode(HSB);
+  colorMode(HSB);
+
+function UpdateLayers () {
+  background (0, 0, 100)
+  image(_backLayer, 0, 0);
+  image(midlayer, 0, 0);
+  image(_frontLayer, 0, 0); 
