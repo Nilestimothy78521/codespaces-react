@@ -24,3 +24,16 @@
   },
   "forwardPorts": [3000]
 }
+
+"image"; "mcr.microsoft.com/devcontainers/universal ; @",
+"jhostRequirements"; {
+    "cpus": 4 
+}, 
+"waitFor": "
+onCreateCommand",
+"updateContentComman": "npm install",
+"postCreateComman":"",
+"post AttachComman"; {
+    "server": "npm start"
+}
+"customization":{ 
