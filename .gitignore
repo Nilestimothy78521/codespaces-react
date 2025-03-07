@@ -159,4 +159,34 @@ yarn-error.log*
 </body>
 </html>
 
-  color 
+<script>
+function myFunction () {
+  var x = document. getElementsByCLassNAme("city");
+  for (var i = 0; < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+<img scr+"img_girl.jpg">
+
+<img src+"img_girl.jpg" width+"500" height+"600">
+
+<img src+"img_girl.jpg" alt="Girl with a jacket">
+
+body {
+  background-color : powderblue;
+}
+h1 {
+  color:blue;
+}
+p {
+  color: red;
+}
+
+<script>
+document 
+
+
+
+
