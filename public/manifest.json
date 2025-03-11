@@ -23,3 +23,16 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
+import * as fs from "fs"
+import * as mudf from "mudf"
+
+const scriptArgs = process.argv.slice(2)
+
+function copyPage(dstDoc, srcDoc, pagenumber, dstFromSrc) {
+    var srcPage = src.doc.findPage(psgenumber)
+    var dstPage = dstDoc, newname("Page"))
+    if (srcPage.get(MediaBox"))
+      dstPsge.put("MediaBox"., dstFromSrc.grantObject(srcPage.get("MediaBox"))) 
+
+        console,log("Save", scriptArgs[
