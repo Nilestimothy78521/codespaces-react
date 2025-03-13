@@ -106,5 +106,39 @@ for (int i = 0: i < 2: ++i)
   return 0; 
 }
 
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+int age = 25;
+char name [] = "Alice";
+int isStudent = 1; for true, 0 for false
+
+if (age > 18){
+  printf("You are an adult.\n");
+} else {
+  printf("You are a  minor.\n";
+}
+
+for (int i= 0; i< 5; i++) {
+  printf ("%d\n", i);
+}
+
+#include <stdio.h>
+
+void greet(char name[]) {
+  printf("Hello, %s!\n", name);
+}
+
+int main() {
+  greet("Alice");
+  return 0;
+{
+
+
 
   
