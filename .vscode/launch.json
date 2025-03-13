@@ -29,4 +29,15 @@ function UpdateLayers () {
   background (0, 0, 100)
   image(_backLayer, 0, 0);
   image(midlayer, 0, 0);
-  image(_frontLayer, 0, 0); 
+  image(_frontLayer, 0, 0);
+
+function my Func(a,b) {
+    return a* b;
+}
+document.getElementById('demo').innerHTML = myFunc(4, 3);
+
+words = ['cat', 'window', 'defenestrate']
+for w in words:
+    print w, len(w)
+
+ 
