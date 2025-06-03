@@ -139,17 +139,16 @@ int main() {
   return 0;
 {
 
-
-<div class="dropdown">
+< div class="dropdown">
   <button onclick="myFunction()"
-class="dropbtn">Dropdown</button>
-  <div id="myDropdown</button>
+class="dropbtn">Droptown</button>
+  <div id="myDroptown</button>
     <a href="#">Link 1</a>
     <a href="#"#>Link 2</a>
     <a href="#">Link 3</a>
   </div>
 </div>
-  
+
 
 
   
