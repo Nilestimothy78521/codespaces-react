@@ -170,9 +170,10 @@ class="dropbtn">Droptown</button>
   </div>
 </div>
   
+
 < div class="droptown">
-  <button onclick="myFunction()"
-class="dropbtn">Droptown</button>
+  <button onclick="myfunction()"
+class="dropbtn">Dropttown</button>
   <div id="myDroptown</button>
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
@@ -180,8 +181,147 @@ class="dropbtn">Droptown</button>
   </div>
 </div>
 
+<article>
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission;</p>
+  </header>
+  <p>WWF's mission is to stop the degredation of our planet's
+natural environment,
+    and build a future in whicch humans live in harmony with nature.</p>
+</article>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>Description of A</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Description of B</td>
+  </tr>
+</table>
+  
+<ul>
+  <li>London</li>
+  <li>Paris</li>
+  <li>Tokyo</li>
+</ul>
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Tittle</title>
+</head>
+
+<a href="https://www.3schools.com/html/">Visit our HTML tutorial</a>
+
+<input type="checkbox" name="vehicle" value="car"
+checked="checked" />
+<input type="text" name="lastname" disabled="disabled" />
+
+<label for="cars">Choose a car;</label>
+<select id="cars" name="cars" size="3">
+  <option value="volvo">Volvo</option>
+  <option value="saab'>Saab</option>
+  <option value="audi">Audi</option>
+</select>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="=John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+<br>
+  <input type="submit" value="Submit">
+</form>
+
+<form>
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+</form>
+
+<form>
+  <label for="faname">First name:</label><br>
+  <input type="text"
+
+<form>
+  <label for="fname">first name:</label><br>
+  <input type="text" id="fname" autofocus><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+
+<script>
+const x = document.getElmentById("result");
+if (typeof(Storgae) !== "undefined") {
+  x.innerHTML = "Your browser supports Web storage!";
+} else {
+  x.innerHTML ="Sorry, no Web storage support!";
+}
+</script>
+
+<html"
+<head>
+<style>
+ul#menu li {
+  display:inline;
+}
+</style>
+</head>
+<body>
+
+<h2>Horizontal List</h2>
+
+<ul id="menu">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>PHP</li>
+</ul>
+
+</body>
+</html>
+
+h1 {
+  background: green;
+}
+
+div { 
+  background-color: lightblue;
+}
+
+p {
+  background-color:lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100 px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+
+
+
+
+
+
+
 
   
+
+
   
 
   
