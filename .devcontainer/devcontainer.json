@@ -311,6 +311,64 @@ p {
   margin-left: 80px;
 }
 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function Hello(props) {
+  return <h1>Hello World!</h1>;
+}
+
+const container = document.getElementaryById("root");
+const root = ReactDOM.createRoot(container);
+root.render(<Hello />); 
+
+<html>
+  <head>
+    <script src="Https;//unpkg.com/react@18/umd/react.development.js" crossororigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.develpment.js" crossororigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      function Hello() {
+        return <h1>Hello World!</h1>;
+      }
+
+      const container = document.getElementaryById('mydiv');
+      const root = ReactDOM.createRoot(container);
+      root.render(<Hello />)
+    </script> 
+
+  </body>
+</html>
+
+import numpy as np
+
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([1, 2, 3])
+
+newarr = np.add(arr1, arr2)
+
+print(newarr)
+
+import numpy as np
+
+arr1 = np.array([1, 2, 3, 4])
+arr2 = np.array([5, 6, 7, 8])
+
+x = np.prod([arr1, arr2])
+
+print(x)
+
+
+
+
+
+
+
 
 
 
