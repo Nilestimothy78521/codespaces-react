@@ -363,6 +363,16 @@ x = np.prod([arr1, arr2])
 
 print(x)
 
+<script>
+const x = document.getElementById("demo");
+
+function get location () {
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(success, error);
+} else {
+  x.innerHTML = "Geolocation is not supported by this browser.";
+}
+
 
 
 
