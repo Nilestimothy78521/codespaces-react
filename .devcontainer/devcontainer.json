@@ -373,6 +373,10 @@ function get location () {
   x.innerHTML = "Geolocation is not supported by this browser.";
 }
 
+public class Main  {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  
 
 
 
